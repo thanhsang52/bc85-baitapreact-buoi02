@@ -49,7 +49,7 @@ body {
 
 .glasses-overlay {
     position: absolute;
-    top: 65px;
+    top: 73px;
     left: 60px;
     width: 130px;
     opacity: 0.85;
@@ -64,7 +64,14 @@ body {
     /* width: 100%; */
     text-align: left;
 }
-
+.glasses-info h4{
+    margin: 0;
+    font-size: 18px;
+}
+.glasses-info p{
+    margin: 4px;
+    font-size: 12px;
+}
 .glasses-list {
     display: flex;
     justify-content: center;
