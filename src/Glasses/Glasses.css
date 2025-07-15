@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('./glassesImage/background.jpg');
+    /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#root{
+    padding:0;
+}
+.app-container {
+    text-align: center;
+    padding: 0;
+
+    color: white;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* dark overlay to improve contrast */
+}
+
+.app-heading {
+    font-size: 26px;
+    padding:10px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.model-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.model-image {
+    position: relative;
+}
+
+.base-model {
+    width: 250px;
+}
+
+.glasses-overlay {
+    position: absolute;
+    top: 65px;
+    left: 60px;
+    width: 130px;
+    opacity: 0.85;
+}
+
+.glasses-info {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 153, 0, 0.8);
+    color: white;
+    padding: 10px;
+    /* width: 100%; */
+    text-align: left;
+}
+
+.glasses-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 0 20px;
+}
+
+.glasses-thumbnail {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.glasses-thumbnail:hover {
+    border-color: orange;
+}
